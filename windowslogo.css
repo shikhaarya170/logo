@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: blanchedalmond;
+    
+}
+
+
+div{
+        position: absolute;
+        width: 700px;
+        height: 800px;
+        transform: translate(-50% ,-50%) perspective(200px)  rotateY(-3deg) ;
+        top: 50%;
+        left: 50%;
+        background-color:black;
+}
+
+div span{
+    position: absolute;
+    width: 300px;
+    top: 5%;
+    left: 5%;
+    height: 300px;
+    background-color: aqua;
+}
+div span:nth-child(1){
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 5%;
+  background-color: aqua;
+    left: 50%;
+}
+
+div span:nth-child(2){
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 44%;
+  background-color: aqua;
+    left: 5%;
+}
+
+div span:nth-child(3){
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 44%;
+  background-color: aqua;
+    left: 50%;
+}
